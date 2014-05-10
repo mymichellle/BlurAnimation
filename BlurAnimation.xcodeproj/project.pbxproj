@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2348284D191B096D00159DA5 /* BlurImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348284C191B096D00159DA5 /* BlurImageView.m */; };
 		23C103A3191B02F10022C8D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C103A2191B02F10022C8D6 /* Foundation.framework */; };
 		23C103A5191B02F10022C8D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C103A4191B02F10022C8D6 /* CoreGraphics.framework */; };
 		23C103A7191B02F10022C8D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C103A6191B02F10022C8D6 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		23C103C4191B02F10022C8D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C103A6191B02F10022C8D6 /* UIKit.framework */; };
 		23C103CC191B02F10022C8D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23C103CA191B02F10022C8D6 /* InfoPlist.strings */; };
 		23C103CE191B02F10022C8D6 /* BlurAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C103CD191B02F10022C8D6 /* BlurAnimationTests.m */; };
+		43C0427FB73D4B0DADF3EECD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2446D521F48DDBF1AEF89 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2348284B191B096D00159DA5 /* BlurImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurImageView.h; sourceTree = "<group>"; };
+		2348284C191B096D00159DA5 /* BlurImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurImageView.m; sourceTree = "<group>"; };
 		23C1039F191B02F10022C8D6 /* BlurAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C103A2191B02F10022C8D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23C103A4191B02F10022C8D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		23C103C9191B02F10022C8D6 /* BlurAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		23C103CB191B02F10022C8D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23C103CD191B02F10022C8D6 /* BlurAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurAnimationTests.m; sourceTree = "<group>"; };
+		84D2446D521F48DDBF1AEF89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3F6C70D9EB4B649DAF80A7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				23C103A5191B02F10022C8D6 /* CoreGraphics.framework in Frameworks */,
 				23C103A7191B02F10022C8D6 /* UIKit.framework in Frameworks */,
 				23C103A3191B02F10022C8D6 /* Foundation.framework in Frameworks */,
+				43C0427FB73D4B0DADF3EECD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				23C103C7191B02F10022C8D6 /* BlurAnimationTests */,
 				23C103A1191B02F10022C8D6 /* Frameworks */,
 				23C103A0191B02F10022C8D6 /* Products */,
+				CC3F6C70D9EB4B649DAF80A7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				23C103A4191B02F10022C8D6 /* CoreGraphics.framework */,
 				23C103A6191B02F10022C8D6 /* UIKit.framework */,
 				23C103C1191B02F10022C8D6 /* XCTest.framework */,
+				84D2446D521F48DDBF1AEF89 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +121,8 @@
 		23C103A8191B02F10022C8D6 /* BlurAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2348284B191B096D00159DA5 /* BlurImageView.h */,
+				2348284C191B096D00159DA5 /* BlurImageView.m */,
 				23C103B1191B02F10022C8D6 /* BlurAppDelegate.h */,
 				23C103B2191B02F10022C8D6 /* BlurAppDelegate.m */,
 				23C103B4191B02F10022C8D6 /* Main.storyboard */,
@@ -159,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23C103D1191B02F10022C8D6 /* Build configuration list for PBXNativeTarget "BlurAnimation" */;
 			buildPhases = (
+				2651CF228CF94493B7D13B2A /* Check Pods Manifest.lock */,
 				23C1039B191B02F10022C8D6 /* Sources */,
 				23C1039C191B02F10022C8D6 /* Frameworks */,
 				23C1039D191B02F10022C8D6 /* Resources */,
+				1529E91E19B04285BF569C68 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,11 +258,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1529E91E19B04285BF569C68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2651CF228CF94493B7D13B2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23C1039B191B02F10022C8D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2348284D191B096D00159DA5 /* BlurImageView.m in Sources */,
 				23C103AF191B02F10022C8D6 /* main.m in Sources */,
 				23C103B9191B02F10022C8D6 /* BlurViewController.m in Sources */,
 				23C103B3191B02F10022C8D6 /* BlurAppDelegate.m in Sources */,
@@ -374,26 +421,32 @@
 		};
 		23C103D2191B02F10022C8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3F6C70D9EB4B649DAF80A7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlurAnimation/BlurAnimation-Prefix.pch";
 				INFOPLIST_FILE = "BlurAnimation/BlurAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		23C103D3191B02F10022C8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3F6C70D9EB4B649DAF80A7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlurAnimation/BlurAnimation-Prefix.pch";
 				INFOPLIST_FILE = "BlurAnimation/BlurAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +510,7 @@
 				23C103D3191B02F10022C8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23C103D4191B02F10022C8D6 /* Build configuration list for PBXNativeTarget "BlurAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +519,7 @@
 				23C103D6191B02F10022C8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

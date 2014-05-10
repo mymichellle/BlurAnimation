@@ -7,9 +7,10 @@
 //
 
 #import "BlurViewController.h"
+#import "BlurImageView.h"
 
 @interface BlurViewController ()
-
+@property (weak, nonatomic) IBOutlet BlurImageView *bluredView;
 @end
 
 @implementation BlurViewController
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // start the pathAnimation on the bluredImageView
+    [self.bluredView pathAnimationBetweenStart:CGPointMake(100, 100)
+                                        andEnd:CGPointMake(350, 400)];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,10 @@
+PODS:
+  - StackBluriOS (0.0.1)
+
+DEPENDENCIES:
+  - StackBluriOS (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  StackBluriOS: dd039bb5ff23a3dd370853202d38dec815970e5b
+
+COCOAPODS: 0.32.1
